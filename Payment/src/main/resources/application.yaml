@@ -1,0 +1,16 @@
+application:
+  kafka:
+    topic: new_orders
+
+server:
+  port: 8081
+
+spring:
+  kafka:
+    consumer:
+      auto-offset-reset: latest
+      bootstrap-servers: localhost:9092
+      group-id: MyGroup_payment
+
+    producer:
+      bootstrap-servers: localhost:9092

@@ -1,0 +1,9 @@
+server:
+  port: 8083
+
+spring:
+  kafka:
+    consumer:
+      auto-offset-reset: latest
+      bootstrap-servers: localhost:9092
+      group-id: MyGroup_notification"

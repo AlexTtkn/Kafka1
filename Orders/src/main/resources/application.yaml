@@ -1,0 +1,11 @@
+application:
+  kafka:
+    topic: new_orders
+server:
+  port: 8080
+
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      client-id: order_id
