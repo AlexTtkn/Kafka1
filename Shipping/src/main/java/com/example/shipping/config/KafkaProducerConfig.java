@@ -39,6 +39,6 @@ public class KafkaProducerConfig {
 
     @Bean
     public NewTopic topic(){
-        return TopicBuilder.name(topic).build();
+        return TopicBuilder.name(topic).partitions(3).build();
     }
 }

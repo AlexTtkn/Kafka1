@@ -6,4 +6,4 @@ spring:
     consumer:
       auto-offset-reset: latest
       bootstrap-servers: localhost:9092
-      group-id: MyGroup_notification"
+      group-id: MyGroup_notification
