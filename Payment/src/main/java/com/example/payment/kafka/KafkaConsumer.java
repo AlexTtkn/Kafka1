@@ -1,6 +1,7 @@
 package com.example.payment.kafka;
 
-import com.example.payment.model.Order;
+
+import com.example.orders.model.Order;
 import com.example.payment.service.PayService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;

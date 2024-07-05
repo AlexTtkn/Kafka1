@@ -1,7 +1,8 @@
 package com.example.payment.service;
 
+import com.example.orders.model.Order;
 import com.example.payment.kafka.KafkaProducer;
-import com.example.payment.model.Order;
+
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

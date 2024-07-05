@@ -1,6 +1,6 @@
 package com.example.payment.kafka;
 
-import com.example.payment.model.Order;
+import com.example.orders.model.Order;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.kafka.core.KafkaTemplate;

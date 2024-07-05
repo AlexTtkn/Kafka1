@@ -1,6 +1,7 @@
 package com.example.shipping.kafka;
 
-import com.example.shipping.model.Order;
+
+import com.example.orders.model.Order;
 import com.example.shipping.service.ShippingService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
